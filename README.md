@@ -14,4 +14,3 @@ yarn dev
 ```
 
 Try out the app, but **don't yet look too closely at the code**. There will be time enough for that in a bit.
-
