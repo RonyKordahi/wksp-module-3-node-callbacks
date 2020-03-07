@@ -41,6 +41,7 @@ Both of the important JavaScript programming platforms
 make operations that might take a while **asynchronous**.
 
 _Examples of operations that might take time?_
+//setInterval, setTimeout, page rendering.
 
 ---
 
@@ -62,7 +63,9 @@ console.log('do second thing');
 console.log('do third thing');
 
 // expected output
-
+// do first thing
+// do second thing
+// do third thing
 ```
 
 _What is expected here?_
@@ -79,6 +82,10 @@ setTimeout(function() {
     console.log('do second thing');
 }, 2000);
 console.log('do third thing');
+//output: 
+//do first thing
+//do third thing
+//do second thing
 ```
 
 ---
